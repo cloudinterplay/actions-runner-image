@@ -1,4 +1,4 @@
-name: Docker (Windows)
+name: Docker (Windows 2022)
 
 on:
   workflow_dispatch:
