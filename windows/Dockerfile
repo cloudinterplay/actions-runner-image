@@ -1,5 +1,5 @@
 ARG BASE
-FROM mcr.microsoft.com/windows/servercore:${BASE}
+FROM mcr.microsoft.com/dotnet/framework/sdk:${BASE}
 
 WORKDIR /actions-runner
 
