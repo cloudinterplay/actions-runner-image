@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/windows/servercore:ltsc2019
+ARG BASE
+FROM mcr.microsoft.com/windows/servercore:${BASE}
 
 WORKDIR /actions-runner
 
